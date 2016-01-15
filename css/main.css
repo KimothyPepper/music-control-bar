@@ -43,16 +43,14 @@ body {
 }
 
 .album {
-  width:3.5rem;
+  width: 3.5rem;
   position: absolute;
   top: 0;
   left: 0;
-
-
 }
 
 .time {
-  width:100%;
+  width: 100%;
 
 }
 
@@ -105,11 +103,7 @@ body {
   font-size: 1.8rem;
   line-height: 16px;
   list-style-type: none;
-
-
-
 }
-
 .control-shuffle {
   position: absolute;
   top: 0.5rem;
