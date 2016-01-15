@@ -43,10 +43,16 @@ body {
 }
 
 .album {
+  width:3.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+
 
 }
 
 .time {
+  width:100%;
 
 }
 
@@ -58,6 +64,8 @@ body {
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
+  width: 100%;
+
 }
 
 /*
@@ -77,10 +85,17 @@ body {
 
 .time-lapsed {
   font-size: .7rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 2rem;
+
 }
 
 .time-total {
   font-size: .7rem;
+  position: absolute;
+  right: 0.2rem;
+  top: 2rem;
 }
 
 .controls {
@@ -90,16 +105,27 @@ body {
   font-size: 1.8rem;
   line-height: 16px;
   list-style-type: none;
+
+
+
 }
 
 .control-shuffle {
+  position: absolute;
+  top: 0.5rem;
+  left: 3.5rem;
 
 }
 
 .control-list {
+  position: absolute;
+  top: 0.5rem;
+  right: 0;
 
 }
 
 .control-heart {
-
+  position: absolute;
+  top: 0.7rem;
+  right: 1.2rem;
 }
