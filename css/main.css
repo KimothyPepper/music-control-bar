@@ -104,11 +104,11 @@ body {
   line-height: 16px;
   list-style-type: none;
 }
+
 .control-shuffle {
   position: absolute;
   top: 0.5rem;
   left: 3.5rem;
-
 }
 
 .control-list {
